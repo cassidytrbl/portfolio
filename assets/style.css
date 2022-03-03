@@ -1,0 +1,156 @@
+
+* {
+    margin:0;
+    padding:0;  
+  }
+
+  body {
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:#FFF2F1;
+    color: #72625e;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+   
+  }
+  
+  a {
+    text-decoration: none;
+    color: #72625e;
+  }
+
+  sidebar {
+    background-color: #84a59d;
+    padding-top: 20px;
+    text-align: left;
+    width: 160px;
+    position: fixed;
+  }
+  
+  header,
+  footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #ebce90;
+  }
+  
+  header {
+    position: static;
+    border-bottom: 10px solid #C78283;
+  }
+  
+  footer {
+    border-bottom: 10px solid #C78283;
+    color: #FDF8F5;    
+  }
+
+  .text-center {
+    text-align: center;
+    color: #a18675;
+    position: static;
+  }
+  
+  .text-right {
+    text-align: right;
+    
+  }
+  .text-left {
+    text-align: left;
+  }
+
+  .banner {
+    height: 175px;
+    display:flex;
+   
+    
+  }
+  .banner_image {
+    width: 100%;
+    object-fit: cover;
+  }
+  #footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+  }
+  .card_image {
+    flex: 4;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #C78283;
+    margin: 20px;
+  }
+  .card header {
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebar {
+  height: 80%;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  background-color: #FFF2F1;
+  width: 100px;
+  margin-top: 275px;
+  }
+  
+  .sidebar div {
+  padding: 8px;
+  font-size: 25px;
+  
+
+  }
+  
+  .body-text {
+  margin-left: 150px;
+  font-size: 18px;
+  }
+
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+  article {
+    margin-left: 150px;
+  }
