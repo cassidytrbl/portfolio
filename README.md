@@ -1,6 +1,6 @@
 # portfolio
-Added nav that leads links to github, resume and email. 
-Add a banner underneath the nav. 
-Added picture with name and paragraph about me 
-Created a side bar that links to about me and my work.
-
+For the nav I added my important links such as labeled
+For the side bar the buttons are clickable but since there isnt much it doesnt go anywhere.
+My work links all go somewhere. 
+The get in touch with me has links to my socials.
+https://cassidytrbl.github.io/portfolio/
